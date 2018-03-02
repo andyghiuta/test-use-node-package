@@ -1,0 +1,22 @@
+{
+  "name": "test-use-node-package",
+  "version": "1.0.0",
+  "description": "Testing use of a git node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyghiuta/test-use-node-package.git"
+  },
+  "author": "Andy Ghiuta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyghiuta/test-use-node-package/issues"
+  },
+  "homepage": "https://github.com/andyghiuta/test-use-node-package#readme",
+  "devDependencies": {
+    "node-package": "git+ssh://git@github.com/andyghiuta/node-package.git#semver:^1.0.0"
+  }
+}
